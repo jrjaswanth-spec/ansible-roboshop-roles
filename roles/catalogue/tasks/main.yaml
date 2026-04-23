@@ -27,3 +27,7 @@
   when: catalogue_output.stdout | int < 0
 
 
+- name: app setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_ from: system-setup.yaml
