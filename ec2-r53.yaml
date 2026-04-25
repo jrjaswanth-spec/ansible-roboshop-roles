@@ -8,17 +8,18 @@
     domain_name: jrdaws.life
     # we can also pass instances through command line using -e
     instances: 
-    
-    - mongodb
-    - redis
-    - rabbitmq
-    - mysql
-    - cart
-    - user
-    - frontend
-    - catalogue
-    - payment
-
+       
+      - shipping
+    # - mongodb
+    # - redis
+    # - rabbitmq
+    # - mysql
+    # - cart
+    # - user
+    # - frontend
+    # - catalogue
+    # - payment
+      
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
