@@ -3,3 +3,5 @@ REDIS_HOST: redis.daws86s.fun
 CATALOGUE_HOST: catalogue.jrdaws.life
 CART_HOST: cart.jrdaws.life
 MYSQL_HOST: mysql.jrdaws.life
+USER_HOST: user.jrdaws.life
+RABBITMQ_HOST: rabbitmq.jrdaws.life
