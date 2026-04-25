@@ -18,7 +18,6 @@
     - frontend
     - catalogue
     - payment
-    - mysql
 
   tasks:
   - name: create ec2 instance
