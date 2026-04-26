@@ -10,16 +10,16 @@
     instances: 
        
       - shipping
-    # - mongodb
-    # - redis
-    # - rabbitmq
-    # - mysql
-    # - cart
-    # - user
-    # - frontend
-    # - catalogue
-    # - payment
-      
+      - mongodb
+      - redis
+      - rabbitmq
+      - mysql
+      - cart
+      - user
+      - frontend
+      - catalogue
+      - payment
+        
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
